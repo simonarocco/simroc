@@ -17,30 +17,28 @@ public class MainActivity extends AppCompatActivity {
     private Button Signup;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+   protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Name = (EditText)findViewById(R.id.username);
-        Password = (EditText)findViewById(R.id.password);
-        Login = (Button)findViewById(R.id.btnLogin);
-        Signup = (Button)findViewById(R.id.btnSignup);
+        Name = findViewById(R.id.username);
+        Password = findViewById(R.id.password);
+        Login = findViewById(R.id.btnLogin);
+        Signup = findViewById(R.id.btnSignup);
 
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this, "this works", Toast.LENGTH_SHORT).show();
             }
         });
 
         Signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this, "this also works", Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -6,4 +6,5 @@
     <item name="btnLogin" type="id" />
     <item name="btnSignup" type="id" />
     <item name="password" type="id" />
+    <item name="setInfo" type="id" />
 </resources>
