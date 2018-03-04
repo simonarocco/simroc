@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://C:\Users\Emma\Desktop\StarterHacks\simroc\MyApplication.iml" filepath="C:\Users\Emma\Desktop\StarterHacks\simroc\MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Emma\Desktop\StarterHacks\simroc\app\app.iml" filepath="C:\Users\Emma\Desktop\StarterHacks\simroc\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simroc.iml" filepath="$PROJECT_DIR$/simroc.iml" />
     </modules>
   </component>
 </project>
