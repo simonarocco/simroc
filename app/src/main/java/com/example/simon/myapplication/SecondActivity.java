@@ -30,23 +30,11 @@ public class SecondActivity extends AppCompatActivity {
         Create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                validatePass(Password.getText().toString(), Password2.getText().toString());
+                Intent intent = new Intent(SecondActivity.this, DoesntWork.class);
+                startActivity(intent);
             }
         });
     }
-
-    private void validatePass(String firstPass, String valPass) {
-        while(firstPass != valPass)
-        {
-            Toast.makeText(this, "Passwords do not match. Please try again.",
-                    Toast.LENGTH_LONG).show();
-        }
-        Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
-        startActivity(intent);
-
-    }
-
-
 }
 
 

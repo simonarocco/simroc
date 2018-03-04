@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" />
-        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".BrowseRecipe" />
+        <activity android:name=".INeed" />
+        <activity android:name=".IHave" />
+        <activity android:name=".DoesntWork" />
     </application>
 
 </manifest>

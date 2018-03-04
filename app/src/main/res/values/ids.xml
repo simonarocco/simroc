@@ -7,4 +7,5 @@
     <item name="btnSignup" type="id" />
     <item name="password" type="id" />
     <item name="setInfo" type="id" />
+    <item name="listview" type="id" />
 </resources>
